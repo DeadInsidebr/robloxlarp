@@ -84,7 +84,7 @@
     },
     "Tasteful1": {
       "type": "ParticleEmitter",
-      "texture": rbxasset://textures/particles/smoke_main.dds,
+      "texture": "rbxasset://textures/particles/smoke_main.dds",
       "color": [
         {"time": 0, "color": [116, 179, 197]},
         {"time": 1, "color": [14, 46, 62]}
