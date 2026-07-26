@@ -1,0 +1,280 @@
+{
+  "hats": {
+    "122534753389419": {
+      "name": "): Grindstack Top Hat",
+      "effects": ["Hats1", "Hats2"]
+    }
+    "79892316853514": {
+      "name": "Tasteful Smokestack Top Hat",
+      "effects": ["Tasteful1", "Tasteful2", "Tasteful3", "Tasteful4"]
+    }
+    "128076862338275": {
+      "name": "Rbadam's Confetti Top Hat",
+      "effects": ["Confetti"]
+    }
+    "109260592655443": {
+      "name": "Tasteless Smokestack Top Hat",
+      "effects": ["Dollar"]
+    }
+  },
+  "effects": {
+    "Hats1": {
+      "type": "ParticleEmitter",
+      "texture": 106689903273007,
+      "color": [
+        {"time": 0, "color": [255, 255, 255]},
+        {"time": 1, "color": [255, 255, 255]}
+      ],
+      "size": [
+        {"value": 0.35, "time": 0, "envelope": 0},
+        {"value": 0.6, "time": 0.868, "envelope": 0.15},
+        {"value": 0.3, "time": 1, "envelope": 0.205}
+      ],
+      "transparency": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.0125, "time": 0.9957, "envelope": 0},
+        {"value": 1, "time": 1, "envelope": 0}
+      ],
+      "lifetime": {"min": 4, "max": 8},
+      "speed": {"min": 3.5, "max": 3.5},
+      "rotation": {"min": -180, "max": 180},
+      "rotSpeed": {"min": -77, "max": 77},
+      "rate": 6,
+      "spread": [7, 7],
+      "lightEmission": 0,
+      "lightInfluence": 0,
+      "acceleration": [0, -1, 0],
+      "drag": 0,
+      "enabled": true,
+      "emissionDirection": "Top",
+      "orientation": "FacingCamera",
+      "zOffset": 0
+    },
+    "Hats2": {
+      "type": "ParticleEmitter",
+      "texture": 7014874877,
+      "color": [
+        {"time": 0, "color": [255, 255, 255]},
+        {"time": 1, "color": [255, 255, 255]}
+      ],
+      "size": [
+        {"value": 0.35, "time": 0, "envelope": 0},
+        {"value": 0.6, "time": 0.868, "envelope": 0.15},
+        {"value": 0.3, "time": 1, "envelope": 0.205}
+      ],
+      "transparency": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.0125, "time": 0.9957, "envelope": 0},
+        {"value": 1, "time": 1, "envelope": 0}
+      ],
+      "lifetime": {"min": 4, "max": 8},
+      "speed": {"min": 3.5, "max": 3.5},
+      "rotation": {"min": -180, "max": 180},
+      "rotSpeed": {"min": -77, "max": 77},
+      "rate": 6,
+      "spread": [7, 7],
+      "lightEmission": 0,
+      "lightInfluence": 0,
+      "acceleration": [0, -1, 0],
+      "drag": 0,
+      "enabled": true,
+      "emissionDirection": "Top",
+      "orientation": "FacingCamera",
+      "zOffset": 0
+    },
+    "Tasteful1": {
+      "type": "ParticleEmitter",
+      "color": [
+        {"time": 0, "color": [116, 179, 197]},
+        {"time": 1, "color": [14, 46, 62]}
+      ],
+      "size": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.1744, "time": 0.2704, "envelope": 0},
+        {"value": 0.5233, "time": 0.7553, "envelope": 0},
+        {"value": 1.1047, "time": 1, "envelope": 0.407}
+      ],
+      "transparency": [
+        {"value": 0.1, "time": 0, "envelope": 0},
+        {"value": 0.1628, "time": 0.8859, "envelope": 0},
+        {"value": 1, "time": 1, "envelope": 0}
+      ],
+      "lifetime": {"min": 4, "max": 8},
+      "speed": {"min": 1, "max": 1},
+      "rotation": {"min": 0, "max": 0},
+      "rotSpeed": {"min": 2, "max": 7},
+      "rate": 22,
+      "spread": [1, 1],
+      "lightEmission": 0,
+      "lightInfluence": 0,
+      "acceleration": [0, 0, 0],
+      "drag": 0,
+      "enabled": true,
+      "emissionDirection": "Top",
+      "orientation": "FacingCamera",
+      "zOffset": 0
+    },
+    "Tasteful2": {
+      "type": "ParticleEmitter",
+      "texture": 42426828,
+      "color": [
+        {"time": 0, "color": [251, 255, 255]},
+        {"time": 1, "color": [253, 249, 255]}
+      ],
+      "size": [
+        {"value": 0.3425, "time": 0, "envelope": 0},
+        {"value": 0.202, "time": 0.868, "envelope": 0.09},
+        {"value": 0.105, "time": 1, "envelope": 0.105}
+      ],
+      "transparency": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.0125, "time": 0.9957, "envelope": 0},
+        {"value": 1, "time": 1, "envelope": 0}
+      ],
+      "lifetime": {"min": 4, "max": 8},
+      "speed": {"min": 3.5, "max": 3.5},
+      "rotation": {"min": 0, "max": 360},
+      "rotSpeed": {"min": -77, "max": 77},
+      "rate": 0.9,
+      "spread": [7, 7],
+      "lightEmission": 0,
+      "lightInfluence": 0,
+      "acceleration": [0, -1, 0],
+      "drag": 0,
+      "enabled": true,
+      "emissionDirection": "Top",
+      "orientation": "FacingCamera",
+      "zOffset": 0
+    },
+    "Tasteful3": {
+      "type": "ParticleEmitter",
+      "texture": 42427356,
+      "color": [
+        {"time": 0, "color": [251, 255, 255]},
+        {"time": 1, "color": [253, 249, 255]}
+      ],
+      "size": [
+        {"value": 0.3425, "time": 0, "envelope": 0},
+        {"value": 0.202, "time": 0.868, "envelope": 0.09},
+        {"value": 0.105, "time": 1, "envelope": 0.105}
+      ],
+      "transparency": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.0125, "time": 0.9957, "envelope": 0},
+        {"value": 1, "time": 1, "envelope": 0}
+      ],
+      "lifetime": {"min": 4, "max": 8},
+      "speed": {"min": 3.5, "max": 3.5},
+      "rotation": {"min": 0, "max": 360},
+      "rotSpeed": {"min": -77, "max": 77},
+      "rate": 0.9,
+      "spread": [7, 7],
+      "lightEmission": 0,
+      "lightInfluence": 0,
+      "acceleration": [0, -1, 0],
+      "drag": 0,
+      "enabled": true,
+      "emissionDirection": "Top",
+      "orientation": "FacingCamera",
+      "zOffset": 0
+    },
+    "Tasteful4": {
+      "type": "ParticleEmitter",
+      "texture": 42427428,
+      "color": [
+        {"time": 0, "color": [251, 255, 255]},
+        {"time": 1, "color": [253, 249, 255]}
+      ],
+      "size": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.1875, "time": 0.6232, "envelope": 0},
+        {"value": 0, "time": 1, "envelope": 0}
+      ],
+      "transparency": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.0125, "time": 0.9957, "envelope": 0},
+        {"value": 1, "time": 1, "envelope": 0}
+      ],
+      "lifetime": {"min": 4, "max": 8},
+      "speed": {"min": 3.5, "max": 3.5},
+      "rotation": {"min": 0, "max": 360},
+      "rotSpeed": {"min": -77, "max": 77},
+      "rate": 5,
+      "spread": [7, 7],
+      "lightEmission": 0,
+      "lightInfluence": 0,
+      "acceleration": [0, -1, 0],
+      "drag": 0,
+      "enabled": true,
+      "emissionDirection": "Top",
+      "orientation": "FacingCamera",
+      "zOffset": 0
+    },
+    "Confetti": {
+      "type": "ParticleEmitter",
+      "texture": 1549003301,
+      "color": [
+        {"time": 0, "color": [255, 255, 255]},
+        {"time": 1, "color": [255, 255, 255]}
+      ],
+      "size": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.3, "time": 0.25, "envelope": 0},
+        {"value": 0.6, "time": 0.75, "envelope": 0},
+        {"value": 0.8, "time": 1, "envelope": 0.2}
+      ],
+      "transparency": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.1628, "time": 0.8859, "envelope": 0},
+        {"value": 1, "time": 1, "envelope": 0}
+      ],
+      "lifetime": {"min": 4, "max": 6},
+      "speed": {"min": 2, "max": 4},
+      "rotation": {"min": -45, "max": 45},
+      "rotSpeed": {"min": -25, "max": 25},
+      "rate": 22,
+      "spread": [5, 5],
+      "lightEmission": 0,
+      "lightInfluence": 0.6,
+      "acceleration": [0, -1, 0],
+      "drag": 0,
+      "enabled": true,
+      "emissionDirection": "Top",
+      "orientation": "FacingCamera",
+      "zOffset": 0
+    },
+    "Dollar": {
+      "type": "ParticleEmitter",
+      "texture": 122267325798362,
+      "color": [
+        {"time": 0, "color": [255, 247, 0]},
+        {"time": 1, "color": [255, 247, 0]}
+      ],
+      "size": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.08, "time": 0.27, "envelope": 0},
+        {"value": 0.25, "time": 0.755, "envelope": 0},
+        {"value": 0.5, "time": 1, "envelope": 0.2}
+      ],
+      "transparency": [
+        {"value": 0, "time": 0, "envelope": 0},
+        {"value": 0.1628, "time": 0.8859, "envelope": 0},
+        {"value": 1, "time": 1, "envelope": 0}
+      ],
+      "lifetime": {"min": 4, "max": 8},
+      "speed": {"min": 0.8, "max": 1.2},
+      "rotation": {"min": -20, "max": 20},
+      "rotSpeed": {"min": 0, "max": 0},
+      "rate": 22,
+      "spread": [5, 5],
+      "lightEmission": 1,
+      "lightInfluence": 0,
+      "acceleration": [0, -0.1, 0],
+      "drag": 0,
+      "enabled": true,
+      "emissionDirection": "Top",
+      "orientation": "FacingCamera",
+      "zOffset": 0
+    }
+  }
+}
