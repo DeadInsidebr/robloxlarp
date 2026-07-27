@@ -39,6 +39,10 @@
     "96134077421163": {
       "name": "LOTF Horns",
       "effects": ["LotfFire1", "LotfFire2"]
+    },
+    "92402653291961": {
+      "name": "Timeless Harmonica",
+      "effects": ["HarmScript", "Harm1", "Harm2", "Harm3", "Harm4"]
     }
   },
   "effects": {
@@ -237,6 +241,38 @@
       "enabled": true,
       "heat": 8,
       "secondaryColor": [255, 255, 255]
+    },
+    "Harm1": {
+      "type": "Sound",
+      "soundId": 33069371,
+      "volume": 0.8,
+      "pitch": 1,
+      "looped": false,
+      "playing": false
+    },
+    "Harm2": {
+      "type": "Sound",
+      "soundId": 33069392,
+      "volume": 0.8,
+      "pitch": 1,
+      "looped": false,
+      "playing": false
+    },
+    "Harm3": {
+      "type": "Sound",
+      "soundId": 33069412,
+      "volume": 0.8,
+      "pitch": 1,
+      "looped": false,
+      "playing": false
+    },
+    "Harm4": {
+      "type": "Sound",
+      "soundId": 33069454,
+      "volume": 0.8,
+      "pitch": 1,
+      "looped": false,
+      "playing": false
     },
     "Hats1": {
       "type": "ParticleEmitter",
@@ -729,5 +765,8 @@
       "emissionDirection": "Top",
       "orientation": "FacingCamera"
     }
+  },
+    "scripts": {
+    "HarmScript": "function isWorn()\n\treturn script.Parent.Parent.Parent:FindFirstChild(\"Humanoid\") ~= nil\nend\n\nwhile true do\n\n\twait(math.random(5,20))\n\n\tif (isWorn()) then\n\n\t\tlocal name = \"Harm\" .. math.random(1,4)\n\n\t\tscript.Parent:FindFirstChild(name):Play()\n\tend\n\nend"
   }
 }
