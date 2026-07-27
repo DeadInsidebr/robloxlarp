@@ -15,9 +15,49 @@
     "109260592655443": {
       "name": "Tasteless Smokestack Top Hat",
       "effects": ["Dollar"]
+    },
+    "100324383373986": {
+      "name": "Yuko's Horns of Doodleland",
+      "effects": ["DoodleFire"]
+    },
+    "127091638980175": {
+      "name": "Crimson Horns",
+      "effects": ["CrimsonFire"]
+    },
+    "80136301029267": {
+      "name": "Blue Horns",
+      "effects": ["BlueFire"]
+    },
+    "79353631114407": {
+      "name": "Lavender Horns Of Big Chungus",
+      "effects": ["LavanderFire"]
+    },
+    "106123694034355": {
+      "name": "Biograft Horns Of Chi Spec",
+      "effects": ["ChiFire"]
+    },
+    "96134077421163": {
+      "name": "LOTF Horns",
+      "effects": ["LotfFire1", "LotfFire2"]
     }
   },
   "effects": {
+    "BlueFire": {
+      "type": "Fire",
+      "color": [35, 179, 255],
+      "size": 3,
+      "enabled": true,
+      "heat": 8,
+      "secondaryColor": [20, 103, 145]
+    },
+    "ChiFire": {
+      "type": "Fire",
+      "color": [60, 5, 0],
+      "size": 3,
+      "enabled": true,
+      "heat": 8,
+      "secondaryColor": [243, 239, 238]
+    },
     "Confetti": {
       "type": "ParticleEmitter",
       "texture": 1549003301,
@@ -100,6 +140,14 @@
       "emissionDirection": "Top",
       "orientation": "FacingCamera"
     },
+    "CrimsonFire": {
+      "type": "Fire",
+      "color": [166, 26, 24],
+      "size": 3,
+      "enabled": true,
+      "heat": 8,
+      "secondaryColor": [0, 0, 0]
+    },
     "Dollar": {
       "type": "ParticleEmitter",
       "texture": 122267325798362,
@@ -181,6 +229,14 @@
       "velocityInheritance": 0,
       "emissionDirection": "Top",
       "orientation": "FacingCamera"
+    },
+    "DoodleFire": {
+      "type": "Fire",
+      "color": [0, 0, 0],
+      "size": 3,
+      "enabled": true,
+      "heat": 8,
+      "secondaryColor": [255, 255, 255]
     },
     "Hats1": {
       "type": "ParticleEmitter",
@@ -335,6 +391,30 @@
       "velocityInheritance": 0,
       "emissionDirection": "Top",
       "orientation": "FacingCamera"
+    },
+    "LavanderFire": {
+      "type": "Fire",
+      "color": [89, 94, 146],
+      "size": 3,
+      "enabled": true,
+      "heat": 8,
+      "secondaryColor": [89, 94, 146]
+    },
+    "LotfFire1": {
+      "type": "Fire",
+      "color": [172, 135, 24],
+      "size": 3,
+      "enabled": true,
+      "heat": 8,
+      "secondaryColor": [0, 0, 0]
+    },
+    "LotfFire2": {
+      "type": "Fire",
+      "color": [29, 99, 186],
+      "size": 3,
+      "enabled": true,
+      "heat": 8,
+      "secondaryColor": [0, 0, 0]
     },
     "Tasteful1": {
       "type": "ParticleEmitter",
