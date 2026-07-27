@@ -42,8 +42,7 @@
     },
     "92402653291961": {
       "name": "Timeless Harmonica",
-      "effects": ["Harm1", "Harm2", "Harm3", "Harm4"],
-      "scripts": ["HarmScript"]
+      "effects": ["HarmSounds"]
     }
   },
   "effects": {
@@ -243,37 +242,13 @@
       "heat": 8,
       "secondaryColor": [255, 255, 255]
     },
-    "Harm1": {
-      "type": "Sound",
-      "soundId": 33069371,
+    "HarmSounds": {
+      "type": "SoundGroup",
+      "sounds": [33069371, 33069392, 33069412, 33069454],
       "volume": 0.8,
       "pitch": 1,
-      "looped": false,
-      "playing": false
-    },
-    "Harm2": {
-      "type": "Sound",
-      "soundId": 33069392,
-      "volume": 0.8,
-      "pitch": 1,
-      "looped": false,
-      "playing": false
-    },
-    "Harm3": {
-      "type": "Sound",
-      "soundId": 33069412,
-      "volume": 0.8,
-      "pitch": 1,
-      "looped": false,
-      "playing": false
-    },
-    "Harm4": {
-      "type": "Sound",
-      "soundId": 33069454,
-      "volume": 0.8,
-      "pitch": 1,
-      "looped": false,
-      "playing": false
+      "minDelay": 5,
+      "maxDelay": 20
     },
     "Hats1": {
       "type": "ParticleEmitter",
@@ -766,8 +741,5 @@
       "emissionDirection": "Top",
       "orientation": "FacingCamera"
     }
-  },
-  "scripts": {
-    "HarmScript": "function isWorn()\n\tlocal handle = script.Parent\n\tif not handle then return false end\n\tlocal accessory = handle.Parent\n\tif not accessory then return false end\n\tlocal character = accessory.Parent\n\tif not character then return false end\n\treturn character:FindFirstChild(\"Humanoid\") ~= nil\nend\n\nwhile true do\n\twait(math.random(5, 20))\n\tif script.Parent and script.Parent.Parent then\n\t\tif isWorn() then\n\t\t\tlocal name = \"Harm\" .. math.random(1, 4)\n\t\t\tlocal sound = script.Parent:FindFirstChild(name)\n\t\t\tif sound then\n\t\t\t\tsound:Play()\n\t\t\tend\n\t\tend\n\tend\nend"
   }
 }
