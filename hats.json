@@ -42,7 +42,8 @@
     },
     "92402653291961": {
       "name": "Timeless Harmonica",
-      "effects": ["HarmScript", "Harm1", "Harm2", "Harm3", "Harm4"]
+      "effects": ["Harm1", "Harm2", "Harm3", "Harm4"],
+      "scripts": ["HarmScript"]
     }
   },
   "effects": {
